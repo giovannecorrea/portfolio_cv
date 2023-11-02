@@ -1,0 +1,55 @@
+---
+import TimeLineElement from '@components/ui/TimeLine.astro';
+---
+
+<section
+	data-testid="experience"
+	id="experience"
+	class="mb-10 flex flex-col items-center justify-center md:mb-0 md:h-screen"
+>
+	<h2 class="font-monospace text-2xl text-blue lg:text-4xl">Working Experience</h2>
+	<span class="mb-10 h-1 w-10 bg-blue"></span>
+
+	<div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Full-Stack Developer at CTCEA"
+      subtitle="Setember 2016 - Today"
+    >
+      <p>
+        <span class="font-bold underline">CTCEA</span>, accredited by the Ministry of Defense as a Strategic Defense Company (EED), is a private, non-profit institution whose purpose is to carry out studies, research and development of alternative technologies, through direct elaboration and execution of projects and programs, and research and teaching plans, technical assistance to public bodies and private and community entities.
+      </p>
+      <p>
+        As a Full-Stack Developer, my responsibilities include developing new features, code review, fixing bugs, monitoring and deploying the application.
+      </p>
+      <p class="mt-5">
+        Technologies: Nodejs, Typescript, JavaScript, Nextjs, React, Tailwind, Bootstrap, PHP, Git, SQL Server, MySQL, MongoDB
+      </p>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Intern at CTCEA"
+      subtitle="Setember 2014 - Setember 2016"
+    >
+      <p>
+        As a IT Intern, my responsibilities include support in the maintenance of applications, helpdesk and assistance in the administration of the infrastructure.
+      </p>
+      <p class="mt-5">
+        Technologies: WordPress, ColdFusion, HTML, CSS, MariaDB
+      </p>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Intern at IBGE"
+      subtitle="December 2011 - December 2013"
+    >
+      <p>
+        <a href="https://www.ibge.gov.br/" target="_blank" class="font-bold underline">IBGE</a> (Brazilian Institute of Geography and Statistics), is a public institute of Brazilian federal administration, being the main provider of data and information in the country, which meets the needs of the most diverse segments of civil society, as well as bodies at the federal, state and municipal.
+      </p>
+      <p>
+        As a IT Intern, my responsibilities include analysis and programming of dynamic data entries and user support.
+      </p>
+      <p class="mt-5">
+        Technologies: JavaScript, ASP, C#, MySQL
+      </p>
+    </TimeLineElement>
+  </div>
+	
+</section>

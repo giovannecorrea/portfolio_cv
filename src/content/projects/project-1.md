@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: Project title
+title: car_showcase
 img_alt: project image alt text
-link: https://github.com/giovannecorrea?tab=repositories
+link: https://github.com/giovannecorrea/car_showcase
 tags: ['Nextjs', 'CSS', 'Typescript']
 ---

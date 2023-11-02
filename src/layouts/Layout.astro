@@ -2,6 +2,7 @@
 import Footer from '@components/Footer.astro';
 import Navbar from '@components/Navbar.astro';
 import { SEO } from 'astro-seo';
+import '../styles/global.css';
 
 export interface LayoutProps {
 	title: string;
@@ -14,7 +15,7 @@ const { title = 'John Doe | Web developer' } = Astro.props as LayoutProps;
 <html lang="en" class="scroll-smooth" data-testid="html">
 	<head>
 		<SEO
-			title="A Very Descriptive Title"
+			title="Giovanne Corrêa"
 			description="A heavily optimized description full of well-researched keywords."
 		/>
 		<meta charset="UTF-8" />

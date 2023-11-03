@@ -7,5 +7,4 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
 	integrations: [tailwind(), mdx(), image()],
 	site: 'https://www.giovannecorrea.com',
-	base: '/portfolio_cv'
 });

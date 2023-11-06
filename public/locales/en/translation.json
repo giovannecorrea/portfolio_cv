@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "text": "Hello! I'm <0>Giovanne Correa</0>, a software developer based in Rio de Janeiro - Brazil."
+  },
+  "navbar": {
+    "about": "About",
+    "experience": "Working Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "button": {
+    "download": "Download CV",
+    "learn_more": "Learn More"
+  },
+  "about": {
+    "title": "About me",
+    "hi": "Hi, I'm Giovanne",
+    "first_paragraph": ", a full-stack web developer from Brazil. As a dedicated and skilled software engineer with over 6 years of experience in designing, developing, and maintaining software solutions, I am passionate about leveraging my expertise to drive innovation and contribute to the success of dynamic projects.",
+    "second_paragraph": "I love to study and learn new technologies. While I have some preferred tools, I'm always willing to choose the most suitable ones for each project.",
+    "third_paragraph": "Beyond coding, you can find me organizing my next trip, watching a good movie, discovering a new restaurant or at the gym. I value a work-life balance that nurtures creativity and personal growth."
+  },
+  "experience": {
+    "title": "Working Experience",
+    "technologies": "Technologies",
+    "ctcea": {
+      "full_stack": {
+        "title": "Full-Stack Developer at CTCEA",
+        "subtitle": "Setember 2016 - Today",
+        "first_paragraph": "<0><1>CTCEA</1>, accredited by the Ministry of Defense as a Strategic Defense Company (EED), is a private, non-profit institution whose purpose is to carry out studies, research and development of alternative technologies, through direct elaboration and execution of projects and programs, and research and teaching plans, technical assistance to public bodies and private and community entities.</0>",
+        "second_paragraph": "Como Desenvolvedor Full-Stack, minhas responsabilidades incluem desenvolver novas funcionalidades, revisão de código, correção de bugs, monitoramento e implantação da aplicação."
+      },
+      "intern": {
+        "title": "Intern at CTCEA",
+        "subtitle": "Setember 2014 - Setember 2016",
+        "first_paragraph": "As a IT Intern, my responsibilities include support in the maintenance of applications, helpdesk and assistance in the administration of the infrastructure."
+      }
+    },
+    "ibge": {
+      "intern": {
+        "title": "Intern at IBGE",
+        "subtitle": "December 2011 - December 2013",
+        "first_paragraph": "<0><1>IBGE</1> (Brazilian Institute of Geography and Statistics), is a public institute of Brazilian federal administration, being the main provider of data and information in the country, which meets the needs of the most diverse segments of civil society, as well as bodies at the federal, state and municipal.</0>",
+        "second_paragraph": "As a IT Intern, my responsibilities include analysis and programming of dynamic data entries and user support."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "bottom_link": "View full projects archive"
+  }
+}

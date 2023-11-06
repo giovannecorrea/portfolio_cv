@@ -1,5 +1,7 @@
 ---
 import TimeLineElement from '@components/ui/TimeLine.astro';
+import { t } from "i18next";
+import { Trans } from "astro-i18next/components";
 ---
 
 <section
@@ -7,47 +9,45 @@ import TimeLineElement from '@components/ui/TimeLine.astro';
 	id="experience"
 	class="mb-10 flex flex-col items-center justify-center md:mb-0 md:h-screen"
 >
-	<h2 class="font-monospace text-2xl text-blue lg:text-4xl">Working Experience</h2>
+	<h2 class="font-monospace text-2xl text-blue lg:text-4xl">{t("experience.title")}</h2>
 	<span class="mb-10 h-1 w-10 bg-blue"></span>
 
 	<div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Full-Stack Developer at CTCEA"
+      title={t("experience.ctcea.full_stack.title")}
       subtitle="Setember 2016 - Today"
     >
-      <p>
-        <span class="font-bold underline">CTCEA</span>, accredited by the Ministry of Defense as a Strategic Defense Company (EED), is a private, non-profit institution whose purpose is to carry out studies, research and development of alternative technologies, through direct elaboration and execution of projects and programs, and research and teaching plans, technical assistance to public bodies and private and community entities.
-      </p>
-      <p>
-        As a Full-Stack Developer, my responsibilities include developing new features, code review, fixing bugs, monitoring and deploying the application.
-      </p>
+      <Trans i18nKey="experience.ctcea.full_stack.first_paragraph">
+        <p><span class="font-bold underline">CTCEA</span>, accredited by the Ministry of Defense as a Strategic Defense Company (EED), is a private, non-profit institution whose purpose is to carry out studies, research and development of alternative technologies, through direct elaboration and execution of projects and programs, and research and teaching plans, technical assistance to public bodies and private and community entities.</p>
+      </Trans>
+      <p>{t("experience.ctcea.full_stack.second_paragraph")}</p>
       <p class="mt-5">
-        Technologies: Nodejs, Typescript, JavaScript, Nextjs, React, Tailwind, Bootstrap, PHP, Git, SQL Server, MySQL, MongoDB
+        {t("experience.technologies")}: Nodejs, Typescript, JavaScript, Nextjs, React, Tailwind, Bootstrap, PHP, Git, SQL Server, MySQL, MongoDB
       </p>
     </TimeLineElement>
     <TimeLineElement
-      title="Intern at CTCEA"
-      subtitle="Setember 2014 - Setember 2016"
+      title={t("experience.ctcea.intern.title")}
+      subtitle={t("experience.ctcea.intern.subtitle")}
     >
       <p>
-        As a IT Intern, my responsibilities include support in the maintenance of applications, helpdesk and assistance in the administration of the infrastructure.
+        {t("experience.ctcea.intern.first_paragraph")}
       </p>
       <p class="mt-5">
-        Technologies: WordPress, ColdFusion, HTML, CSS, MariaDB
+        {t("experience.technologies")}: WordPress, ColdFusion, HTML, CSS, MariaDB
       </p>
     </TimeLineElement>
     <TimeLineElement
-      title="Intern at IBGE"
-      subtitle="December 2011 - December 2013"
+      title={t("experience.ibge.intern.title")}
+      subtitle={t("experience.ibge.intern.subtitle")}
     >
-      <p>
-        <a href="https://www.ibge.gov.br/" target="_blank" class="font-bold underline">IBGE</a> (Brazilian Institute of Geography and Statistics), is a public institute of Brazilian federal administration, being the main provider of data and information in the country, which meets the needs of the most diverse segments of civil society, as well as bodies at the federal, state and municipal.
-      </p>
-      <p>
-        As a IT Intern, my responsibilities include analysis and programming of dynamic data entries and user support.
-      </p>
+      <Trans i18nKey="experience.ibge.intern.first_paragraph">
+        <p><a href="https://www.ibge.gov.br/" target="_blank" class="font-bold underline">IBGE</a> (Brazilian Institute of Geography and Statistics), is a public institute of Brazilian federal administration, being the main provider of data and information in the country, which meets the needs of the most diverse segments of civil society, as well as bodies at the federal, state and municipal.</p>
+      </Trans>
+        <p>
+          {t("experience.ibge.intern.second_paragraph")}
+        </p>
       <p class="mt-5">
-        Technologies: JavaScript, ASP, C#, MySQL
+        {t("experience.technologies")}: JavaScript, ASP, C#, MySQL
       </p>
     </TimeLineElement>
   </div>

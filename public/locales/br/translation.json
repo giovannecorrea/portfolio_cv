@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "text": "Olá! Eu sou <0>Giovanne Correa</0>, um desenvolvedor de software based do Rio de Janeiro."
+  },
+  "navbar": {
+    "about": "Sobre",
+    "experience": "Experiência de Trabalho",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "button": {
+    "download": "Baixar CV",
+    "learn_more": "Saiba Mais"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "hi": "Olá, eu sou o Giovanne",
+    "first_paragraph": ", um desenvolvedor web full-stack. Como engenheiro de software dedicado e qualificado, com mais de 6 anos de experiência em design, desenvolvimento e manutenção de soluções de software, sou apaixonado por aproveitar minha experiência para impulsionar a inovação e contribuir para o sucesso de projetos dinâmicos.",
+    "second_paragraph": "Adoro estudar e aprender novas tecnologias. Embora tenha algumas ferramentas preferidas, estou sempre disposto a escolher as mais adequadas para cada projeto.",
+    "third_paragraph": "Além da programação, você pode me encontrar organizando minha próxima viagem, assistindo um bom filme, conhecendo um novo restaurante ou na academia. Eu valorizo ​​um equilíbrio entre vida pessoal e profissional que estimula a criatividade e o crescimento pessoal."
+  },
+  "experience": {
+    "title": "Experiência de Trabalho",
+    "technologies": "Tecnologias",
+    "ctcea": {
+      "full_stack": {
+        "title": "Desenvolvedor Full-Stack na CTCEA",
+        "subtitle": "Setembro 2016 - Hoje",
+        "first_paragraph": "<0><1>CTCEA</1>, credenciada pelo Ministério da Defesa como Empresa Estratégica de Defesa (EED), é uma instituição de direito privado, sem fins lucrativos, que tem por finalidade a realização de estudos, pesquisas e desenvolvimento de tecnologias alternativas, por meio de elaboração e execução direta de projetos e programas, e planos de pesquisa e ensino, assistência técnica a órgãos públicos e entidades privadas e comunitárias.</0>",
+        "second_paragraph": "Como Desenvolvedor Full-Stack, minhas responsabilidades incluem desenvolver novas funcionalidades, revisão de código, correção de bugs, monitoramento e implantação da aplicação."
+      },
+      "intern": {
+        "title": "Estagiário na CTCEA",
+        "subtitle": "Setembro 2014 - Setembro 2016",
+        "first_paragraph": "Como estagiário da área de TI, minhas responsabilidades incluem suporte na manutenção de aplicações, helpdesk e auxílio na administração da infraestrutura."
+      }
+    },
+    "ibge": {
+      "intern": {
+        "title": "Estagiário no IBGE",
+        "subtitle": "Dezembro 2011 - Dezembro 2013",
+        "first_paragraph": "<0><1>IBGE</1> (Instituto Brasileiro de Geografia e Estatística), é um instituto público da administração federal brasileira, sendo o principal provedor de dados e informações do País, que atendem às necessidades dos mais diversos segmentos da sociedade civil, bem como dos órgãos das esferas governamentais federal, estadual e municipal.</0>",
+        "second_paragraph": "Como estagiário da área de TI, minhas responsabilidades incluem análise e programação de entradas dinâmicas de dados e suporte ao usuário."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "bottom_link": "Ver arquivo completo de projetos"
+  }
+}

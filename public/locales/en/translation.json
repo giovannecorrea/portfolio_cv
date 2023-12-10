@@ -12,6 +12,9 @@
     "download": "Download CV",
     "learn_more": "Learn More"
   },
+  "link": {
+    "download": "https://docs.google.com/document/d/1W-Q_esl0xXkzZHTOuoS0FUOpoYtljMUi/edit?usp=drive_link&ouid=114003642838276524544&rtpof=true&sd=true"
+  },
   "about": {
     "title": "About me",
     "hi": "Hi, I'm Giovanne",

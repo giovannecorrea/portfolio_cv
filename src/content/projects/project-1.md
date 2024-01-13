@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: car_showcase
+title: portfolio_cv
 img_alt: project image alt text
-link: https://github.com/giovannecorrea/car_showcase
-tags: ['Nextjs', 'TailwindCSS', 'Typescript']
+link: https://github.com/giovannecorrea/portfolio_cv
+tags: ['Astro', 'TypeScript', 'TailwindCSS']
 ---

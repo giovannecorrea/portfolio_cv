@@ -1,7 +1,7 @@
 ---
 inProgress: false
-title: project_promptopia
+title: pdf-extractor
 img_alt: project image alt text
-link: https://github.com/giovannecorrea/project_promptopia
-tags: ['Nextjs', 'JavaScript', 'MongoDB', 'TailwindCSS']
+link: https://github.com/giovannecorrea/pdf-extractor
+tags: ['Nextjs', 'TypeScript', 'PostgreSQL', 'TailwindCSS']
 ---
